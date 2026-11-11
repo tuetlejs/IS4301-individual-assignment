@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f5f5f5;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+  padding: 20px 32px;
+  background: #003d7c;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 960px;
+  margin: 32px auto;
+  padding: 32px;
+  background: white;
+}
+
+.nus-logo {
+  max-width: 280px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 12px;
+}
